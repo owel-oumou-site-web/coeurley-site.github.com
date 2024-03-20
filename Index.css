@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(pm_8002_1_1219-cqdwbo4iuh-3154.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo a{
+    color: aqua;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba(0, 0, 0, 0.7);
+}
+
+.logo span{
+    color: aqua;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+    border-radius: 45px;
+    padding: 14px 50px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: aqua;
+    margin: 5px;
+}
+
+ul li a:hover{
+    letter-spacing: normal;
+    color: aqua;
+    background: black;
+}
+
+ul li.active a{
+    background: black;
+    color: aqua;
+}
+
+.principale{
+    max-width: 144rem;
+    margin: 0 auto;  
+}
+
+.titre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titre em{
+    color: aqua;
+    font-size: 50px;
+}
+
+.bouton{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bouton a{
+    color: black;
+    text-decoration: none;
+    border-radius: 45px;
+    padding: 14px 50px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: aqua;
+}
+
+.btn{
+    transition: 00.6s ease;
+}
+
+.btn:hover{
+    letter-spacing: 3px;
+    color: #000;
+}
